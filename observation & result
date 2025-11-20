@@ -1,0 +1,7 @@
+ #Results and Observations
+#Test	                                         #Expected Output	                     #Actual Output	                     # Status
+
+Block port 23	                            Connection refused	                     Block successful	                      ✔️
+Allow SSH on Linux                      	SSH accessible                           Working                         	✔️
+Remove block rule                        	Port accessible again                    Restored	                        ✔️
+
