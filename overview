@@ -1,0 +1,26 @@
+ #Explanation: How a Firewall Filters Traffic
+A firewall filters network traffic using the following mechanisms:
+#Rule-Based Filtering
+Firewalls compare incoming/outgoing packets against a list of rules:
+•	If a packet matches a rule, the defined action (allow/deny) is taken.
+•	Packets not matching any rule use the default policy.
+#Stateful Inspection
+Modern firewalls track active connections:
+•	Only packets that are part of a valid, established connection are allowed.
+•	Others are dropped.
+#Port and Protocol Filtering
+Firewalls inspect:
+•	Port numbers (e.g., 22 SSH, 80 HTTP)
+•	Protocols (TCP, UDP, ICMP)
+Blocking a port means no traffic can use that port to communicate.
+#Direction Filtering
+Firewalls can filter:
+•	Inbound traffic (from external to local)
+•	Outbound traffic (from local to external)
+ #Profiles/Zones
+Depending on the network type:
+•	Home (Private)
+•	Work (Domain)
+•	Public
+Rules may apply differently.
+
